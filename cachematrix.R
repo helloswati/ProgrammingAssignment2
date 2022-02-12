@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## This function takes matrixs an input and returns inverse value 
 
 makeCacheMatrix <- function(x = matrix()) {
   j <- NULL
@@ -19,6 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
+## This functions return the cache value
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   j <- x$getInverse()
